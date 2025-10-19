@@ -1,5 +1,3 @@
-# HELPER FUNCTIONS
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -168,3 +166,4 @@ def find_best_products(category, min_price, max_price, min_rating):
         print("No products were found. Try changing your preferences")
         
     return None
+
